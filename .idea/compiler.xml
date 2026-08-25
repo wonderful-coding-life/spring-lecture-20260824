@@ -7,8 +7,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="jpa.test" />
-        <module name="jpa.main" />
+        <module name="restful.test" />
+        <module name="restful.main" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +29,9 @@
       <module name="mybatis" options="-parameters" />
       <module name="mybatis.main" options="-parameters" />
       <module name="mybatis.test" options="-parameters" />
+      <module name="restful" options="-parameters" />
+      <module name="restful.main" options="-parameters" />
+      <module name="restful.test" options="-parameters" />
       <module name="sample" options="-parameters" />
       <module name="sample.main" options="-parameters" />
       <module name="sample.test" options="-parameters" />
