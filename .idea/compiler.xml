@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="jpa.test" />
+        <module name="jpa.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aop" options="-parameters" />
@@ -8,6 +20,9 @@
       <module name="ioc" options="-parameters" />
       <module name="ioc.main" options="-parameters" />
       <module name="ioc.test" options="-parameters" />
+      <module name="jpa" options="-parameters" />
+      <module name="jpa.main" options="-parameters" />
+      <module name="jpa.test" options="-parameters" />
       <module name="lombok" options="-parameters" />
       <module name="lombok.main" options="-parameters" />
       <module name="lombok.test" options="-parameters" />

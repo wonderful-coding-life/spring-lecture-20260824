@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.mapper.MemberMapper">
+
+    <insert id="insertMember" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        INSERT INTO member(name, email, age) VALUES(#{member.name}, #{member.email}, #{member.age});
+    </insert>
+
+    <update id="updateMember">
+        UPDATE member SET name=#{name}, age=#{age} WHERE id=#{id}
+    </update>
+
+    <delete id="deleteMember">
+        DELETE FROM member WHERE id=#{id}
+    </delete>
+
+    <select id="selectAll">
+        SELECT * FROM member
+    </select>
+
+    <select id="selectAllOrderBy">
+        SELECT * FROM member ORDER BY ${order} ${dir}
+    </select>
+
+    <select id="selectById">
+        SELECT * FROM member WHERE id=#{id}
+    </select>
+</mapper>
