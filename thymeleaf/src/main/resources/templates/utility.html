@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>날짜시간포맷</title>
+</head>
+<body>
+<p th:text="${#temporals.format(now, 'yyyy년 MM월 dd일 HH시 mm분')}">2026년 8월 26일</p>
+</body>
+</html>

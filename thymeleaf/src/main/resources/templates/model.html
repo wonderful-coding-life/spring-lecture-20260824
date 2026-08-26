@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Sample</title>
+</head>
+<body>
+<h1>VIP 회원</h1>
+<p th:text="${name}">공미영</p>
+<p th:text="${email}">MiyeongKong@campus.co.kr</p>
+
+<p th:text="${me.name}">name</p>
+<p th:text="${me.email}">email</p>
+<p th:text="${me.age}">age</p>
+
+<ul th:object="${me}">
+    <li th:text="*{name}">name</li>
+    <li th:text="*{email}">email</li>
+    <li th:text="*{age}">age</li>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 수정</title>
+</head>
+<body>
+
+<form method="post" th:action="@{/member/edit}">
+    <input type="hidden" th:value="${member.id}" name="id"/><br>
+    <input type="text" th:value="${member.name}" name="name"/><br>
+    <input type="text" th:value="${member.email}" name="email"/><br>
+    <input type="text" th:value="${member.age}" name="age"/><br>
+    <button>수정</button>
+</form>
+
+</body>
+</html>
