@@ -1,0 +1,43 @@
+@baseUrl = http://localhost:8080
+
+### 회원 생성 - 윤서준
+POST {{baseUrl}}/members
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "윤서준",
+  "email": "SeojunYoon@campus.co.kr",
+  "age": 10
+}
+
+### 회원 생성 - 윤광철
+POST {{baseUrl}}/members
+Content-Type: application/json
+
+{
+  "name": "윤광철",
+  "email": "KwangcheolYoon@campus.co.kr",
+  "age": 43
+}
+
+### 회원 생성 - 공미영
+POST {{baseUrl}}/members
+Content-Type: application/json
+
+{
+  "name": "공미영",
+  "email": "MiyeongKong@campus.co.kr",
+  "age": 21
+}
+
+### 회원 생성 - 김도윤
+POST {{baseUrl}}/members
+Content-Type: application/json
+
+{
+  "name": "김도윤",
+  "email": "DoyunKim@campus.co.kr",
+  "age": 10
+}
+

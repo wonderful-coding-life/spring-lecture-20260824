@@ -8,7 +8,6 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -40,6 +39,11 @@ public class MemberService {
     @Transactional
     public List<MemberResponse> subscribeBatch(List<MemberRequest> memberRequests) {
         return memberRequests.stream().map(this::subscribe).toList();
+    }
+
+    public MemberResponse findById(Long id) {
+        Member member = memberRepository.findById(id).orElseThrow();
+        return mapToMemberResponse(member);
     }
 
     private MemberResponse mapToMemberResponse(Member member) {

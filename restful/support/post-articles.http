@@ -1,0 +1,902 @@
+@baseUrl = http://localhost:8080
+@memberId = 1
+
+### 게시글 001 - 방학 목표 세우기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 목표 세우기",
+  "description": "이번 방학에는 방학 목표 세우기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 002 - 방학 첫날 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 첫날 계획",
+  "description": "이번 방학에는 방학 첫날 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 003 - 여름방학 독서 목록
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "여름방학 독서 목록",
+  "description": "이번 방학에는 여름방학 독서 목록에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 004 - 방학 중 아침 습관
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중 아침 습관",
+  "description": "이번 방학에는 방학 중 아침 습관에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 005 - 가족과 떠나는 여행
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "가족과 떠나는 여행",
+  "description": "이번 방학에는 가족과 떠나는 여행에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 006 - 친구들과의 캠핑
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "친구들과의 캠핑",
+  "description": "이번 방학에는 친구들과의 캠핑에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 007 - 방학 숙제 일정표
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 숙제 일정표",
+  "description": "이번 방학에는 방학 숙제 일정표에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 008 - 새로운 취미 찾기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "새로운 취미 찾기",
+  "description": "이번 방학에는 새로운 취미 찾기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 009 - 수영 배우기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "수영 배우기",
+  "description": "이번 방학에는 수영 배우기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 010 - 자전거 여행 준비
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "자전거 여행 준비",
+  "description": "이번 방학에는 자전거 여행 준비에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 011 - 도서관에서 보내는 하루
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "도서관에서 보내는 하루",
+  "description": "이번 방학에는 도서관에서 보내는 하루에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 012 - 방학 중 운동 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중 운동 계획",
+  "description": "이번 방학에는 방학 중 운동 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 013 - 여름철 건강 관리
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "여름철 건강 관리",
+  "description": "이번 방학에는 여름철 건강 관리에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 014 - 방학 용돈 관리
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 용돈 관리",
+  "description": "이번 방학에는 방학 용돈 관리에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 015 - 박물관 견학 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "박물관 견학 계획",
+  "description": "이번 방학에는 박물관 견학 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 016 - 과학관 체험 후기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "과학관 체험 후기",
+  "description": "이번 방학에는 과학관 체험 후기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 017 - 바닷가 여행 준비
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "바닷가 여행 준비",
+  "description": "이번 방학에는 바닷가 여행 준비에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 018 - 계곡 나들이 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "계곡 나들이 계획",
+  "description": "이번 방학에는 계곡 나들이 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 019 - 방학 중 영어 공부
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중 영어 공부",
+  "description": "이번 방학에는 방학 중 영어 공부에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 020 - 매일 일기 쓰기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "매일 일기 쓰기",
+  "description": "이번 방학에는 매일 일기 쓰기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 021 - 요리 배우기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "요리 배우기",
+  "description": "이번 방학에는 요리 배우기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 022 - 베이킹 도전기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "베이킹 도전기",
+  "description": "이번 방학에는 베이킹 도전기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 023 - 텃밭 가꾸기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "텃밭 가꾸기",
+  "description": "이번 방학에는 텃밭 가꾸기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 024 - 반려동물과 산책하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "반려동물과 산책하기",
+  "description": "이번 방학에는 반려동물과 산책하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 025 - 사진 촬영 연습
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "사진 촬영 연습",
+  "description": "이번 방학에는 사진 촬영 연습에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 026 - 그림 그리기 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "그림 그리기 계획",
+  "description": "이번 방학에는 그림 그리기 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 027 - 악기 연습 일정
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "악기 연습 일정",
+  "description": "이번 방학에는 악기 연습 일정에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 028 - 코딩 공부 시작하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "코딩 공부 시작하기",
+  "description": "이번 방학에는 코딩 공부 시작하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 029 - 온라인 강의 활용법
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "온라인 강의 활용법",
+  "description": "이번 방학에는 온라인 강의 활용법에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 030 - 방학 추천 영화
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 추천 영화",
+  "description": "이번 방학에는 방학 추천 영화에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 031 - 방학 추천 도서
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 추천 도서",
+  "description": "이번 방학에는 방학 추천 도서에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 032 - 지역 축제 방문기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "지역 축제 방문기",
+  "description": "이번 방학에는 지역 축제 방문기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 033 - 문화재 탐방 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "문화재 탐방 계획",
+  "description": "이번 방학에는 문화재 탐방 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 034 - 기차 여행 준비
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "기차 여행 준비",
+  "description": "이번 방학에는 기차 여행 준비에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 035 - 배낭여행 짐 꾸리기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "배낭여행 짐 꾸리기",
+  "description": "이번 방학에는 배낭여행 짐 꾸리기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 036 - 여행 경비 절약법
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "여행 경비 절약법",
+  "description": "이번 방학에는 여행 경비 절약법에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 037 - 방학 중 봉사 활동
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중 봉사 활동",
+  "description": "이번 방학에는 방학 중 봉사 활동에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 038 - 환경 정화 활동 참여
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "환경 정화 활동 참여",
+  "description": "이번 방학에는 환경 정화 활동 참여에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 039 - 재활용 습관 만들기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "재활용 습관 만들기",
+  "description": "이번 방학에는 재활용 습관 만들기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 040 - 스마트폰 사용 줄이기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "스마트폰 사용 줄이기",
+  "description": "이번 방학에는 스마트폰 사용 줄이기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 041 - 규칙적인 수면 습관
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "규칙적인 수면 습관",
+  "description": "이번 방학에는 규칙적인 수면 습관에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 042 - 건강한 간식 만들기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "건강한 간식 만들기",
+  "description": "이번 방학에는 건강한 간식 만들기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 043 - 홈 트레이닝 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "홈 트레이닝 계획",
+  "description": "이번 방학에는 홈 트레이닝 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 044 - 줄넘기 도전
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "줄넘기 도전",
+  "description": "이번 방학에는 줄넘기 도전에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 045 - 등산 준비하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "등산 준비하기",
+  "description": "이번 방학에는 등산 준비하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 046 - 공원 피크닉 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "공원 피크닉 계획",
+  "description": "이번 방학에는 공원 피크닉 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 047 - 비 오는 날 실내 활동
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "비 오는 날 실내 활동",
+  "description": "이번 방학에는 비 오는 날 실내 활동에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 048 - 무더위를 피하는 방법
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "무더위를 피하는 방법",
+  "description": "이번 방학에는 무더위를 피하는 방법에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 049 - 방학 중 방 정리
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중 방 정리",
+  "description": "이번 방학에는 방학 중 방 정리에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 050 - 옷장 정리하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "옷장 정리하기",
+  "description": "이번 방학에는 옷장 정리하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 051 - 책상 꾸미기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "책상 꾸미기",
+  "description": "이번 방학에는 책상 꾸미기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 052 - 새 학기 준비물 점검
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "새 학기 준비물 점검",
+  "description": "이번 방학에는 새 학기 준비물 점검에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 053 - 지난 학기 복습하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "지난 학기 복습하기",
+  "description": "이번 방학에는 지난 학기 복습하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 054 - 다음 학기 예습하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "다음 학기 예습하기",
+  "description": "이번 방학에는 다음 학기 예습하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 055 - 수학 문제집 완주하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "수학 문제집 완주하기",
+  "description": "이번 방학에는 수학 문제집 완주하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 056 - 영어 단어 암기 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "영어 단어 암기 계획",
+  "description": "이번 방학에는 영어 단어 암기 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 057 - 독서 감상문 쓰기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "독서 감상문 쓰기",
+  "description": "이번 방학에는 독서 감상문 쓰기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 058 - 신문 읽는 습관
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "신문 읽는 습관",
+  "description": "이번 방학에는 신문 읽는 습관에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 059 - 뉴스 토론 해보기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "뉴스 토론 해보기",
+  "description": "이번 방학에는 뉴스 토론 해보기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 060 - 가족과 보드게임 하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "가족과 보드게임 하기",
+  "description": "이번 방학에는 가족과 보드게임 하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 061 - 친구에게 편지 쓰기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "친구에게 편지 쓰기",
+  "description": "이번 방학에는 친구에게 편지 쓰기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 062 - 할머니 댁 방문 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "할머니 댁 방문 계획",
+  "description": "이번 방학에는 할머니 댁 방문 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 063 - 사촌들과 보내는 하루
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "사촌들과 보내는 하루",
+  "description": "이번 방학에는 사촌들과 보내는 하루에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 064 - 고향 여행 이야기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "고향 여행 이야기",
+  "description": "이번 방학에는 고향 여행 이야기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 065 - 농촌 체험 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "농촌 체험 계획",
+  "description": "이번 방학에는 농촌 체험 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 066 - 별자리 관찰하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "별자리 관찰하기",
+  "description": "이번 방학에는 별자리 관찰하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 067 - 일출 보러 가기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "일출 보러 가기",
+  "description": "이번 방학에는 일출 보러 가기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 068 - 숲길 산책하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "숲길 산책하기",
+  "description": "이번 방학에는 숲길 산책하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 069 - 곤충 관찰 일지
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "곤충 관찰 일지",
+  "description": "이번 방학에는 곤충 관찰 일지에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 070 - 식물 성장 기록
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "식물 성장 기록",
+  "description": "이번 방학에는 식물 성장 기록에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 071 - 나만의 방학 버킷리스트
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "나만의 방학 버킷리스트",
+  "description": "이번 방학에는 나만의 방학 버킷리스트에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 072 - 방학 중간 점검
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 중간 점검",
+  "description": "이번 방학에는 방학 중간 점검에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 073 - 방학 계획 수정하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 계획 수정하기",
+  "description": "이번 방학에는 방학 계획 수정하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 074 - 남은 방학 알차게 보내기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "남은 방학 알차게 보내기",
+  "description": "이번 방학에는 남은 방학 알차게 보내기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 075 - 개학 전 생활 리듬 찾기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "개학 전 생활 리듬 찾기",
+  "description": "이번 방학에는 개학 전 생활 리듬 찾기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 076 - 방학 추억 정리하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 추억 정리하기",
+  "description": "이번 방학에는 방학 추억 정리하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 077 - 여행 사진 앨범 만들기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "여행 사진 앨범 만들기",
+  "description": "이번 방학에는 여행 사진 앨범 만들기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 078 - 기념품 정리하기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "기념품 정리하기",
+  "description": "이번 방학에는 기념품 정리하기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 079 - 친구들과 추억 나누기
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "친구들과 추억 나누기",
+  "description": "이번 방학에는 친구들과 추억 나누기에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 080 - 방학 최고의 순간
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 최고의 순간",
+  "description": "이번 방학에는 방학 최고의 순간에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 081 - 아쉬웠던 방학 활동
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "아쉬웠던 방학 활동",
+  "description": "이번 방학에는 아쉬웠던 방학 활동에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 082 - 다음 방학에 하고 싶은 일
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "다음 방학에 하고 싶은 일",
+  "description": "이번 방학에는 다음 방학에 하고 싶은 일에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 083 - 방학 동안 배운 점
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 동안 배운 점",
+  "description": "이번 방학에는 방학 동안 배운 점에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 084 - 스스로 성장한 부분
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "스스로 성장한 부분",
+  "description": "이번 방학에는 스스로 성장한 부분에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 085 - 새롭게 알게 된 관심사
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "새롭게 알게 된 관심사",
+  "description": "이번 방학에는 새롭게 알게 된 관심사에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 086 - 꾸준히 지킨 습관
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "꾸준히 지킨 습관",
+  "description": "이번 방학에는 꾸준히 지킨 습관에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 087 - 도전해서 성공한 일
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "도전해서 성공한 일",
+  "description": "이번 방학에는 도전해서 성공한 일에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 088 - 실패에서 배운 점
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "실패에서 배운 점",
+  "description": "이번 방학에는 실패에서 배운 점에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 089 - 가족에게 감사한 일
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "가족에게 감사한 일",
+  "description": "이번 방학에는 가족에게 감사한 일에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 090 - 친구에게 감사한 일
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "친구에게 감사한 일",
+  "description": "이번 방학에는 친구에게 감사한 일에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 091 - 선생님께 전할 방학 소식
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "선생님께 전할 방학 소식",
+  "description": "이번 방학에는 선생님께 전할 방학 소식에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 092 - 개학 준비 체크리스트
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "개학 준비 체크리스트",
+  "description": "이번 방학에는 개학 준비 체크리스트에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 093 - 교복과 가방 정리
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "교복과 가방 정리",
+  "description": "이번 방학에는 교복과 가방 정리에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 094 - 새 학기 시간표 준비
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "새 학기 시간표 준비",
+  "description": "이번 방학에는 새 학기 시간표 준비에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 095 - 등교 첫날 목표
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "등교 첫날 목표",
+  "description": "이번 방학에는 등교 첫날 목표에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 096 - 새 친구와 친해지는 법
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "새 친구와 친해지는 법",
+  "description": "이번 방학에는 새 친구와 친해지는 법에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 097 - 방학 과제 최종 점검
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학 과제 최종 점검",
+  "description": "이번 방학에는 방학 과제 최종 점검에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 098 - 개학 전날 계획
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "개학 전날 계획",
+  "description": "이번 방학에는 개학 전날 계획에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 099 - 방학을 마무리하며
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "방학을 마무리하며",
+  "description": "이번 방학에는 방학을 마무리하며에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
+
+### 게시글 100 - 즐거운 방학 총정리
+POST {{baseUrl}}/articles?memberId={{memberId}}
+Content-Type: application/json
+
+{
+  "title": "즐거운 방학 총정리",
+  "description": "이번 방학에는 즐거운 방학 총정리에 도전하며 알찬 시간을 보내려고 합니다. 구체적인 계획을 세우고 꾸준히 기록하겠습니다."
+}
