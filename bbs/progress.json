@@ -1,0 +1,44 @@
+{
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Entity와 schema.sql",
+      "status": "done"
+    },
+    {
+      "stage": 2,
+      "name": "Repository",
+      "status": "pending"
+    },
+    {
+      "stage": 3,
+      "name": "Service",
+      "status": "pending"
+    },
+    {
+      "stage": 4,
+      "name": "Spring Security",
+      "status": "pending"
+    },
+    {
+      "stage": 5,
+      "name": "Form과 Validation",
+      "status": "pending"
+    },
+    {
+      "stage": 6,
+      "name": "Controller",
+      "status": "pending"
+    },
+    {
+      "stage": 7,
+      "name": "Thymeleaf 화면",
+      "status": "pending"
+    },
+    {
+      "stage": 8,
+      "name": "권한 및 예외 처리",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package com.example.mvc.entity;
+package com.example.security.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,7 +19,6 @@ public class Member {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String email;
-    private Integer age;
     private String password;
+    private String authority; // "ROLE_ADMIN"...
 }

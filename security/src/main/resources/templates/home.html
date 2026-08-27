@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>상품목록</title>
+</head>
+<body>
+
+<div sec:authorize="isAnonymous()">
+    <a th:href="@{/login}">로그인</a>
+</div>
+
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{/logout}">로그아웃</a>
+</div>
+
+멀티캠퍼스에 오신 것을 환영합니다.<br>
+
+<a sec:authorize="isAuthenticated()" th:href="@{/product/list}">상품목록</a><br>
+
+<a sec:authorize="hasAuthority('ROLE_ADMIN')" th:href="@{/product/add}">상품추가</a>
+
+</body>
+</html>
