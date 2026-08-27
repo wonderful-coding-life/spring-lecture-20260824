@@ -31,4 +31,15 @@ public class Member {
 
     @Column(nullable = false, unique = true, length = 255)
     private String email;
+
+    private Member(String username, String password, String name, String email) {
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.email = email;
+    }
+
+    public static Member create(String username, String password, String name, String email) {
+        return new Member(username, password, name, email);
+    }
 }

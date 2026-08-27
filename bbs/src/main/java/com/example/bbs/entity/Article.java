@@ -38,6 +38,21 @@ public class Article {
     @JoinColumn(name = "author_id", nullable = false)
     private Member author;
 
+    private Article(String title, String content, Member author) {
+        this.title = title;
+        this.content = content;
+        this.author = author;
+    }
+
+    public static Article create(String title, String content, Member author) {
+        return new Article(title, content, author);
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
     @PrePersist
     private void setCreatedAt() {
         if (createdAt == null) {

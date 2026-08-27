@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/layout :: head('로그인')}"></head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+<main class="max-w-md mx-auto px-4 py-12">
+    <section class="bg-slate-900 border border-slate-800 rounded-xl shadow p-6">
+        <h1 class="text-2xl font-bold mb-6">로그인</h1>
+        <div th:if="${param.error}" class="text-red-400 text-sm mb-4">아이디 또는 비밀번호가 올바르지 않습니다.</div>
+        <form th:action="@{/login}" method="post" class="space-y-4">
+            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
+            <div><label class="block mb-1">로그인 아이디</label><input name="username" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
+            <div><label class="block mb-1">비밀번호</label><input type="password" name="password" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
+            <button class="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg py-3">로그인</button>
+        </form>
+        <a th:href="@{/members/new}" class="block text-center text-blue-400 hover:text-blue-300 mt-4">회원가입</a>
+    </section>
+</main>
+</body>
+</html>

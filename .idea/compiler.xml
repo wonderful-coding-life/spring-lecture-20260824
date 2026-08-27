@@ -7,8 +7,8 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="restful.test" />
-        <module name="restful.main" />
+        <module name="bbs.test" />
+        <module name="bbs.main" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +17,9 @@
       <module name="aop" options="-parameters" />
       <module name="aop.main" options="-parameters" />
       <module name="aop.test" options="-parameters" />
+      <module name="bbs" options="-parameters" />
+      <module name="bbs.main" options="-parameters" />
+      <module name="bbs.test" options="-parameters" />
       <module name="ioc" options="-parameters" />
       <module name="ioc.main" options="-parameters" />
       <module name="ioc.test" options="-parameters" />
@@ -26,6 +29,9 @@
       <module name="lombok" options="-parameters" />
       <module name="lombok.main" options="-parameters" />
       <module name="lombok.test" options="-parameters" />
+      <module name="mvc" options="-parameters" />
+      <module name="mvc.main" options="-parameters" />
+      <module name="mvc.test" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="mybatis.main" options="-parameters" />
       <module name="mybatis.test" options="-parameters" />
@@ -35,6 +41,12 @@
       <module name="sample" options="-parameters" />
       <module name="sample.main" options="-parameters" />
       <module name="sample.test" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="security.main" options="-parameters" />
+      <module name="security.test" options="-parameters" />
+      <module name="thymeleaf" options="-parameters" />
+      <module name="thymeleaf.main" options="-parameters" />
+      <module name="thymeleaf.test" options="-parameters" />
     </option>
   </component>
 </project>

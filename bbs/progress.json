@@ -8,37 +8,37 @@
     {
       "stage": 2,
       "name": "Repository",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 3,
       "name": "Service",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 4,
       "name": "Spring Security",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 5,
       "name": "Form과 Validation",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 6,
       "name": "Controller",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 7,
       "name": "Thymeleaf 화면",
-      "status": "pending"
+      "status": "done"
     },
     {
       "stage": 8,
       "name": "권한 및 예외 처리",
-      "status": "pending"
+      "status": "done"
     }
   ]
 }

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bbs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bbs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bbs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bbs.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lombok.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lombok.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restful.main.iml" filepath="$PROJECT_DIR$/.idea/modules/restful.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security.main.iml" filepath="$PROJECT_DIR$/.idea/modules/security.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-lecture-20260824.iml" filepath="$PROJECT_DIR$/spring-lecture-20260824.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thymeleaf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/thymeleaf.main.iml" />
     </modules>
   </component>
 </project>

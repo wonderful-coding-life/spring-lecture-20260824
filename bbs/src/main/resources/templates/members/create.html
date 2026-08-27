@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/layout :: head('회원가입')}"></head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+<main class="max-w-md mx-auto px-4 py-12"><section class="bg-slate-900 border border-slate-800 rounded-xl shadow p-6">
+    <h1 class="text-2xl font-bold mb-6">회원가입</h1>
+    <form th:action="@{/members}" th:object="${memberForm}" method="post" class="space-y-4">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
+        <div><label class="block mb-1">로그인 아이디</label><input th:field="*{username}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"><p th:errors="*{username}" class="text-red-400 text-sm mt-1"></p></div>
+        <div><label class="block mb-1">비밀번호</label><input type="password" th:field="*{password}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"><p th:errors="*{password}" class="text-red-400 text-sm mt-1"></p></div>
+        <div><label class="block mb-1">비밀번호 확인</label><input type="password" th:field="*{passwordConfirm}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"><p th:errors="*{passwordConfirm}" class="text-red-400 text-sm mt-1"></p></div>
+        <div><label class="block mb-1">이름</label><input th:field="*{name}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"><p th:errors="*{name}" class="text-red-400 text-sm mt-1"></p></div>
+        <div><label class="block mb-1">이메일</label><input type="email" th:field="*{email}" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"><p th:errors="*{email}" class="text-red-400 text-sm mt-1"></p></div>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg py-3">가입하기</button>
+    </form>
+</section></main>
+</body></html>

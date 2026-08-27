@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="~{fragments/layout :: head('게시글 목록')}"></head>
+<body class="bg-slate-950 text-slate-100 min-h-screen"><header th:replace="~{fragments/layout :: header}"></header>
+<main class="max-w-5xl mx-auto px-4 py-8"><section class="bg-slate-900 border border-slate-800 rounded-xl shadow p-6">
+    <div class="flex justify-between items-center mb-6"><h1 class="text-2xl font-bold">게시글 목록</h1><a th:href="@{/articles/new}" class="bg-blue-600 text-white rounded-lg px-4 py-2" sec:authorize="isAuthenticated()">글쓰기</a></div>
+    <p th:if="${articles.empty}" class="text-center text-slate-400 py-12">등록된 게시글이 없습니다.</p>
+    <div th:unless="${articles.empty}" class="overflow-x-auto"><table class="w-full text-left"><thead><tr class="border-b border-slate-700 text-slate-300"><th class="py-3">번호</th><th>제목</th><th>작성자</th><th>작성일</th></tr></thead><tbody>
+        <tr th:each="article : ${articles.content}" class="border-b border-slate-800 hover:bg-slate-800"><td class="py-3 text-slate-300" th:text="${article.id}"></td><td><a class="text-blue-400 hover:text-blue-300" th:href="@{/articles/{id}(id=${article.id})}" th:text="${article.title}"></a></td><td th:text="${article.author.name}"></td><td class="text-slate-400" th:text="${#temporals.format(article.createdAt, 'yyyy-MM-dd HH:mm')}"></td></tr>
+    </tbody></table></div>
+    <div th:if="${articles.totalPages > 0}" class="flex justify-center items-center gap-2 mt-6"><a th:classappend="${articles.hasPrevious()} ? '' : ' pointer-events-none opacity-40'" th:href="@{/articles(page=${articles.number - 1})}" class="px-3 py-2 border rounded">이전</a><a th:each="page : ${#numbers.sequence(0, articles.totalPages - 1)}" th:href="@{/articles(page=${page})}" th:text="${page + 1}" th:class="${page == articles.number} ? 'px-3 py-2 rounded bg-blue-600 text-white' : 'px-3 py-2 rounded border'"></a><a th:classappend="${articles.hasNext()} ? '' : ' pointer-events-none opacity-40'" th:href="@{/articles(page=${articles.number + 1})}" class="px-3 py-2 border rounded">다음</a></div>
+</section></main></body></html>
