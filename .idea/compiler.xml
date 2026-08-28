@@ -7,10 +7,15 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="bbs.test" />
-        <module name="bbs.main" />
+        <module name="openai.main" />
+        <module name="openai.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="21" />
+      <module name="demo.main" target="21" />
+      <module name="demo.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -20,6 +25,9 @@
       <module name="bbs" options="-parameters" />
       <module name="bbs.main" options="-parameters" />
       <module name="bbs.test" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo.main" options="-parameters" />
+      <module name="demo.test" options="-parameters" />
       <module name="ioc" options="-parameters" />
       <module name="ioc.main" options="-parameters" />
       <module name="ioc.test" options="-parameters" />
@@ -35,6 +43,9 @@
       <module name="mybatis" options="-parameters" />
       <module name="mybatis.main" options="-parameters" />
       <module name="mybatis.test" options="-parameters" />
+      <module name="openai" options="-parameters" />
+      <module name="openai.main" options="-parameters" />
+      <module name="openai.test" options="-parameters" />
       <module name="restful" options="-parameters" />
       <module name="restful.main" options="-parameters" />
       <module name="restful.test" options="-parameters" />

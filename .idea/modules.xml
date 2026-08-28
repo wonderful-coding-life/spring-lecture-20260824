@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lombok.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lombok.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openai.main.iml" filepath="$PROJECT_DIR$/.idea/modules/openai.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openai.test.iml" filepath="$PROJECT_DIR$/.idea/modules/openai.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restful.main.iml" filepath="$PROJECT_DIR$/.idea/modules/restful.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/security.main.iml" filepath="$PROJECT_DIR$/.idea/modules/security.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-lecture-20260824.iml" filepath="$PROJECT_DIR$/spring-lecture-20260824.iml" />
